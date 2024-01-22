@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BF689E54-E175-6A38-BD72-D4ECDFA2A16F" name="Company_Code">
+<createdBy>elias</createdBy>
+<createdTime>2022-04-29 15:14:03 UTC</createdTime>
+<generatorID>77AE5E36-52F6-0338-36EE-77B339F4F48D</generatorID>
+<ownerDesignName>Group 14</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CC-ID" id="55C07989-377C-4068-6AB6-DBEAC92DBE3D">
+<createdBy>elias</createdBy>
+<createdTime>2022-04-29 15:14:03 UTC</createdTime>
+<generatorID>AD100521-EC38-9885-3386-68262202FE76</generatorID>
+<ownerDesignName>Group 14</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6015578B-16BA-05BF-400D-0BEADD922943" name="Company_Code_PK">
+<createdBy>elias</createdBy>
+<createdTime>2022-04-29 15:14:03 UTC</createdTime>
+<generatorID>9BE12B11-53A2-B0E6-F4C5-455B298B444D</generatorID>
+<ownerDesignName>Group 14</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55C07989-377C-4068-6AB6-DBEAC92DBE3D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

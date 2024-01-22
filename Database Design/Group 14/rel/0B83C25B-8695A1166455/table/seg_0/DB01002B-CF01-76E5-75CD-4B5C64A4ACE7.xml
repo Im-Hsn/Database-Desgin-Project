@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DB01002B-CF01-76E5-75CD-4B5C64A4ACE7" name="Division">
+<createdBy>elias</createdBy>
+<createdTime>2022-04-29 15:14:03 UTC</createdTime>
+<generatorID>6E858E2F-103A-D0A6-851B-6DD41EE9B741</generatorID>
+<ownerDesignName>Group 14</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Div-ID" id="8B230BEC-1045-C3B3-95D5-073EEC223D82">
+<createdBy>elias</createdBy>
+<createdTime>2022-04-29 15:14:03 UTC</createdTime>
+<generatorID>536B90C7-9595-237B-5449-B77C2F8A726F</generatorID>
+<ownerDesignName>Group 14</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Distribution_Channel_DC-#" id="B1BF5B74-80C1-692D-37F6-3628D461A3B5">
+<createdBy>elias</createdBy>
+<createdTime>2022-04-29 15:14:03 UTC</createdTime>
+<generatorID>0C36CE46-A8BB-5BC7-7CC7-79DBA4F7169A</generatorID>
+<ownerDesignName>Group 14</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E34045C8-54E2-D646-354C-345D826CA60F" referredColumn="828C78E3-2ACF-F65B-6FC7-9138A720189C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C00B9600-E53D-6A53-933B-6A09FAE330E8" name="Division_PK">
+<createdBy>elias</createdBy>
+<createdTime>2022-04-29 15:14:03 UTC</createdTime>
+<generatorID>7212577E-6ABB-7D2F-1E0C-0102E118C1EE</generatorID>
+<ownerDesignName>Group 14</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B230BEC-1045-C3B3-95D5-073EEC223D82"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3DBC6757-8C85-5A75-C98F-5BADAF9FE9A0" name="Division_Distribution_Channel_FK">
+<createdBy>elias</createdBy>
+<createdTime>2022-04-29 15:14:03 UTC</createdTime>
+<generatorID>82CC4053-F83A-9C3E-D0CD-4F4E398BAEB0</generatorID>
+<ownerDesignName>Group 14</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1BF5B74-80C1-692D-37F6-3628D461A3B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

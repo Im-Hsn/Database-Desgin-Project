@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="34E18803-2527-6698-D487-82B3C2EC0123" name="Determined_To">
+<createdBy>elias</createdBy>
+<createdTime>2022-04-29 15:14:03 UTC</createdTime>
+<generatorID>62EEAB9C-7AED-5ECD-A82F-2E6186E440D6</generatorID>
+<ownerDesignName>Group 14</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Purchased_Organization_PO-ID" id="AA817157-47D9-F239-A120-49990E979B52">
+<createdBy>elias</createdBy>
+<createdTime>2022-04-29 15:14:03 UTC</createdTime>
+<generatorID>1D8E1BA1-B560-C676-688B-DABE29E67EC7</generatorID>
+<ownerDesignName>Group 14</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CD0CD0F9-00D8-D24D-C4AF-CD53C5EDE260" referredColumn="FF4CCD9D-60A0-D2E4-26E8-FBE6518913A7"/>
+</associations>
+</Column>
+<Column name="Plant_Plant-ID" id="6BF4E4C5-57BB-ECF8-EDC9-8C2428ABF5D6">
+<createdBy>elias</createdBy>
+<createdTime>2022-04-29 15:14:03 UTC</createdTime>
+<generatorID>4581428B-9FC4-9F24-5D21-F05FB03CDE40</generatorID>
+<ownerDesignName>Group 14</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9A3B086E-01A2-82F9-C06F-0E0A4D82B549" referredColumn="D64DECF2-355A-261D-475A-CDB8F1A28863"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C255DDB2-7343-9F61-94CF-C1241B1EC280" name="Determined_To_PK">
+<createdBy>elias</createdBy>
+<createdTime>2022-04-29 15:14:03 UTC</createdTime>
+<generatorID>1A6C352D-C011-944A-D991-F739723E5F5A</generatorID>
+<ownerDesignName>Group 14</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="8241C9A3-9503-03CB-926F-872DBBE008ED" name="Determined_To_Purchased_Organization_FK">
+<createdBy>elias</createdBy>
+<createdTime>2022-04-29 15:14:03 UTC</createdTime>
+<generatorID>A0E986CA-B66E-E9C2-5F67-D27C087511B0</generatorID>
+<ownerDesignName>Group 14</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA817157-47D9-F239-A120-49990E979B52"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C0E734C2-EE51-11E5-1DAE-A90B3BF95A2A" name="Determined_To_Plant_FK">
+<createdBy>elias</createdBy>
+<createdTime>2022-04-29 15:14:03 UTC</createdTime>
+<generatorID>C5440202-20D9-45F3-3C11-85FCF955D27F</generatorID>
+<ownerDesignName>Group 14</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BF4E4C5-57BB-ECF8-EDC9-8C2428ABF5D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

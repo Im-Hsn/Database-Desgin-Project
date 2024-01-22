@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="82926760-C4DB-CC97-1E8D-0316933FC93F" name="Plant">
+<createdBy>elias</createdBy>
+<createdTime>2022-04-29 15:14:03 UTC</createdTime>
+<generatorID>AB24443F-46BE-4057-7F60-BCA9BB451B58</generatorID>
+<ownerDesignName>Group 14</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Plant-ID" id="D64DECF2-355A-261D-475A-CDB8F1A28863">
+<createdBy>elias</createdBy>
+<createdTime>2022-04-29 15:14:03 UTC</createdTime>
+<generatorID>668514DC-D36A-568A-F146-7084662318BF</generatorID>
+<ownerDesignName>Group 14</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Company_Code_CC-ID" id="5A065813-ADA1-59E5-744A-AC2E792F49A5">
+<createdBy>elias</createdBy>
+<createdTime>2022-04-29 15:14:03 UTC</createdTime>
+<generatorID>B42B0B4B-67B7-5BD1-E6BF-83EA6BA38A1D</generatorID>
+<ownerDesignName>Group 14</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="650718DD-9D12-013E-9A67-B8228335C010" referredColumn="55C07989-377C-4068-6AB6-DBEAC92DBE3D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="26668665-3C00-EBA3-8EEE-93EC6A2B6B3E" name="Plant_PK">
+<createdBy>elias</createdBy>
+<createdTime>2022-04-29 15:14:03 UTC</createdTime>
+<generatorID>733914EB-217D-36B8-1C12-B70EC537A241</generatorID>
+<ownerDesignName>Group 14</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D64DECF2-355A-261D-475A-CDB8F1A28863"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2212D02C-8D6B-1078-9A4D-BB5B0B530778" name="Plant_Company_Code_FK">
+<createdBy>elias</createdBy>
+<createdTime>2022-04-29 15:14:03 UTC</createdTime>
+<generatorID>5222448A-A68B-4ABB-4FAC-9AF3A89E9EBC</generatorID>
+<ownerDesignName>Group 14</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A065813-ADA1-59E5-744A-AC2E792F49A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B71F3FB1-88BC-E2FD-E1A5-917E767F5AAC" name="Purchased_Organization">
+<createdBy>elias</createdBy>
+<createdTime>2022-04-29 15:14:03 UTC</createdTime>
+<generatorID>D034706E-B585-5598-EFE9-9DD27C12C9C7</generatorID>
+<ownerDesignName>Group 14</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PO-ID" id="FF4CCD9D-60A0-D2E4-26E8-FBE6518913A7">
+<createdBy>elias</createdBy>
+<createdTime>2022-04-29 15:14:03 UTC</createdTime>
+<generatorID>D56E68AB-47B6-ADE0-28E2-CF0C8B6B2827</generatorID>
+<ownerDesignName>Group 14</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Company_Code_CC-ID" id="E465222B-AF62-4F47-64A6-652FCB69DDDB">
+<createdBy>elias</createdBy>
+<createdTime>2022-04-29 15:14:03 UTC</createdTime>
+<generatorID>C3443D16-80AA-16C2-562C-B82C6965431C</generatorID>
+<ownerDesignName>Group 14</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="77891B2D-EC3E-F55E-33D2-FBAF3DEA5AF0" referredColumn="55C07989-377C-4068-6AB6-DBEAC92DBE3D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A7D82846-29D2-466C-727E-4946BA17A45B" name="Purchased_Organization_PK">
+<createdBy>elias</createdBy>
+<createdTime>2022-04-29 15:14:03 UTC</createdTime>
+<generatorID>A4B93C0D-21F4-8E32-2F25-6F1793A17C4A</generatorID>
+<ownerDesignName>Group 14</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF4CCD9D-60A0-D2E4-26E8-FBE6518913A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="50E3A7B2-3C2E-5011-B7AD-8FDD823F1785" name="Purchased_Organization_Company_Code_FK">
+<createdBy>elias</createdBy>
+<createdTime>2022-04-29 15:14:03 UTC</createdTime>
+<generatorID>EBA8A832-5471-D818-60A2-E16E56FC524D</generatorID>
+<ownerDesignName>Group 14</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E465222B-AF62-4F47-64A6-652FCB69DDDB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

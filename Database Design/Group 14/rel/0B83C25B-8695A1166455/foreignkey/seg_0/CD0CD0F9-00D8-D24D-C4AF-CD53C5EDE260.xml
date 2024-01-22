@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CD0CD0F9-00D8-D24D-C4AF-CD53C5EDE260" containerWithKeyObject="34E18803-2527-6698-D487-82B3C2EC0123" localFKIndex="8241C9A3-9503-03CB-926F-872DBBE008ED" name="Determined_To_Purchased_Organization_FK">
+<createdBy>elias</createdBy>
+<createdTime>2022-04-29 15:14:03 UTC</createdTime>
+<generatorID>A0E986CA-B66E-E9C2-5F67-D27C087511B0</generatorID>
+<ownerDesignName>Group 14</ownerDesignName>
+<referredTableLongName>Purchased_Organization</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B71F3FB1-88BC-E2FD-E1A5-917E767F5AAC</referredTableID>
+<keyObject>A7D82846-29D2-466C-727E-4946BA17A45B</keyObject>
+<referredKeyID>A7D82846-29D2-466C-727E-4946BA17A45B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PO-ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

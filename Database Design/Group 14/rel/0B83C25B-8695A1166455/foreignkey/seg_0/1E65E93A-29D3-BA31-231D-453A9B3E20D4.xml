@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1E65E93A-29D3-BA31-231D-453A9B3E20D4" containerWithKeyObject="8A44FEDA-6C69-FF4B-3C60-B53FA9070ACA" localFKIndex="F1BDFFEA-7238-A27B-552D-C2783A5AD0E9" name="Appointed_To_Sales_Organization_FK">
+<createdBy>elias</createdBy>
+<createdTime>2022-05-07 17:58:17 UTC</createdTime>
+<generatorID>31ABC3D1-F91C-E5B2-C3FF-1D5F35F17E1F</generatorID>
+<ownerDesignName>Group 14</ownerDesignName>
+<referredTableLongName>Sales_Organization</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>16DC4A96-3034-DA97-FFC3-44EEC6A3BE61</referredTableID>
+<keyObject>AC988E44-61DD-D480-E2B3-6329BB308A86</keyObject>
+<referredKeyID>AC988E44-61DD-D480-E2B3-6329BB308A86</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Sales-Org-ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
